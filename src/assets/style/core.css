@@ -1,0 +1,213 @@
+/* Шрифты */
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* 
+
+    Цвета
+        #FFFFFF
+        #000000
+        #1596C1
+        #AAAAAA
+
+*/
+
+/* Заголовки */
+
+.heading-one--core {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.heading-two--core {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.heading-three--core {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Подзаголовки */
+
+.subheading-one--core {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.07em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.subheading-two--core {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    color: #000000;
+}
+
+.subheading-three--core {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.07em;
+    color: #000000;
+}
+
+/* Ссылки */
+
+.link-header--core {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.07em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link-header--core:hover {
+    border-bottom: 3px solid #000000;
+}
+
+.link-header--core:active {
+    color: #1596C1;
+    border-bottom: 3px solid #1596C1;
+}
+
+.link-header--core:disabled {
+    color: #AAAAAA;
+}
+
+.link-footer--core {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link-footer--core:hover {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.link-footer--core:active {
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+.link-footer--core:disabled {
+    color: #AAAAAA;
+}
+
+/* Кнопки */
+
+.button-main--core {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    cursor: pointer;
+    background: none;
+}
+
+.button-main--core:hover {
+    background: #CDCDCD;
+    border: 3px solid #FFFFFF;
+}
+
+.button-main--core:active {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.button-main--core:disabled {
+    border: 3px solid #AAAAAA;
+    color: #AAAAAA;
+}
+
+.button-min--core {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    border: 3px solid #000000;
+    cursor: pointer;
+    background: none;
+}
+
+.button-min--core:hover {
+    background: #CDCDCD;
+}
+
+.button-min--core:active {
+    background: #1596C1;
+}
+
+.button-min--core:disabled {
+    border: 3px solid #AAAAAA;
+    color: #AAAAAA;
+}
+
+/* Инпут */
+
+.input-main--core {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    letter-spacing: 0.07em;
+    color: #000000;
+    text-align: center;
+    outline: none;
+    border: 3px solid #000000;
+}
+
+.input-main--core:hover {
+    background: url(@/assets/images/sprites/cross.svg) no-repeat right;
+}
+
+.input-main--core:active {
+    background: url(@/assets/images/sprites/mark.svg) no-repeat right;
+}
